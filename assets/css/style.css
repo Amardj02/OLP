@@ -1,3 +1,25 @@
+body {
+  padding-top: 60px;
+}
+.course-card {
+  transition: transform 0.3s;
+}
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-bottom: fixed;
+}
+
 .navbar-nav .nav-link {
     color: #fff;
     transition: color 0.3s;
@@ -20,6 +42,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: fadeIn 1s ease;
+
   }
   @keyframes fadeIn {
     0% {
